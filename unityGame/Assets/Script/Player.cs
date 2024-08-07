@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 
@@ -72,9 +73,11 @@ public class Player : MonoBehaviour
         //characterController.SimpleMove(movevecter * speed);
 
     }
-
     private void OnTriggerEnter(Collider other)
     {
+        while (other != null) 
+        { }
+
         if (other.CompareTag("booster"))
         {
             speed += 5f;

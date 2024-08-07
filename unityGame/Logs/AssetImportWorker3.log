@@ -1,0 +1,1323 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.40f1 (cbdda657d2f0) revision 13360550'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 32685 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Administrator/Desktop/초원/unityGame/unityGame
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+65433
+Successfully changed project path to: C:/Users/Administrator/Desktop/초원/unityGame/unityGame
+C:/Users/Administrator/Desktop/초원/unityGame/unityGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19948]  Target information:
+
+Player connection [19948]  * "[IP] 192.168.0.200 [Port] 0 [Flags] 2 [Guid] 3979284240 [EditorId] 3979284240 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AGEDA01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19948] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19948] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 9.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
+[Subsystems] Discovering subsystems at path D:/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/Desktop/초원/unityGame/unityGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'D:/2022.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003632 seconds.
+- Loaded All Assemblies, in  0.313 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.247 seconds
+Domain Reload Profiling: 560ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (247ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (201ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.529 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.495 seconds
+Domain Reload Profiling: 1023ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (495ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (373ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.9 KB). Loaded Objects now: 3639.
+Memory consumption went from 151.7 MB to 151.7 MB.
+Total: 2.788800 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.142100 ms MarkObjects: 2.337400 ms  DeleteObjects: 0.081500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2634.905831 seconds.
+  path: Assets/Model/character/Archbishop/Archbishop/Texture/Skin&Hair&Face/Skin.png
+  artifactKey: Guid(2a75d024e1e5769408db13fa0ce5448b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Archbishop/Texture/Skin&Hair&Face/Skin.png using Guid(2a75d024e1e5769408db13fa0ce5448b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38b9c419f710b80044ddf2867c0b9a8c') in 0.061961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 70.790551 seconds.
+  path: Assets/Model/character/Red Mage/Red Mage(1).PNG
+  artifactKey: Guid(a633221d3da9d764396df04c342a7dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Red Mage/Red Mage(1).PNG using Guid(a633221d3da9d764396df04c342a7dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa851b6345becefd3be8fde7fa6ef9ec') in 0.014204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Model/character/Red Knight/RedKnight/Texture/Skin&Hair&Face/Face/Skin.png
+  artifactKey: Guid(bd6c49a9d60bab14991c5bee757159e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Red Knight/RedKnight/Texture/Skin&Hair&Face/Face/Skin.png using Guid(bd6c49a9d60bab14991c5bee757159e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a8632ec7f2a1fa0dcea7b48fe3be941') in 0.016627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Model/character/Castle Guard/Castle Guard/Texture/M02/spear_blackiron.png
+  artifactKey: Guid(87b6be89ab23946468e364229d91a098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Castle Guard/Castle Guard/Texture/M02/spear_blackiron.png using Guid(87b6be89ab23946468e364229d91a098) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '58953249bf8db3d5f160ae17cda851c7') in 0.026361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Model/character/Dragoon/Dragoon/Texture/Skin&Hair&Face/Skin.png
+  artifactKey: Guid(a16e3fae9286c7d4da988211a1f9af7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Dragoon/Dragoon/Texture/Skin&Hair&Face/Skin.png using Guid(a16e3fae9286c7d4da988211a1f9af7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2f9a498c0d748c7fea26af543d4b5a7') in 0.016117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.478219 seconds.
+  path: Assets/Model/character/Dragoon/Dragoon/Texture/F02/Sword_dragon.png
+  artifactKey: Guid(c82826800b22ba3479876e7369115247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Dragoon/Dragoon/Texture/F02/Sword_dragon.png using Guid(c82826800b22ba3479876e7369115247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3e584a5e3abbc30db0d3207ef908ecef') in 0.013159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.889273 seconds.
+  path: Assets/Model/character/Dragoon/Thumbnail Dragoon.PNG
+  artifactKey: Guid(095236c7724c62d4b927e0aa4947113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Dragoon/Thumbnail Dragoon.PNG using Guid(095236c7724c62d4b927e0aa4947113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2a52e88577306fe27f38f6349692054') in 0.012899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.776783 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d17d2c002a89671596384c6371b8735') in 0.076939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.200795 seconds.
+  path: Assets/Model/character/Casual Tiny - Knight Pack/fx_prefaps/Texture/fx_hit_009.png
+  artifactKey: Guid(f016ef3122fdea9438c6d47bba5c97b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Casual Tiny - Knight Pack/fx_prefaps/Texture/fx_hit_009.png using Guid(f016ef3122fdea9438c6d47bba5c97b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f37847558a4f4e662ef09de28be0871') in 0.011856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.287159 seconds.
+  path: Assets/Model/character/Red Knight/RedKnight/Fx/fx2.png
+  artifactKey: Guid(95718e8dbcb0a03459fff8f87f55834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Red Knight/RedKnight/Fx/fx2.png using Guid(95718e8dbcb0a03459fff8f87f55834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea5d23c36703a1ad2805baabe68eef11') in 0.056943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 126.904976 seconds.
+  path: Assets/Model/character/Castle Guard/UI/anim_button1.png
+  artifactKey: Guid(0f9d1229578798c45a26a373ed974aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Castle Guard/UI/anim_button1.png using Guid(0f9d1229578798c45a26a373ed974aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1579e632f0721cad2f53ed1d698ca8c2') in 0.048772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Model/character/Red Knight/UI/anim_button1.png
+  artifactKey: Guid(a7b2fa87292e32848858c9f070ef6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Red Knight/UI/anim_button1.png using Guid(a7b2fa87292e32848858c9f070ef6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7c2cf141fc01a6ae0fa05de8106ce312') in 0.015791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Model/character/Archbishop/UI/anim_button1.png
+  artifactKey: Guid(7cc746351b99e5b4c9092dd89516c820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/UI/anim_button1.png using Guid(7cc746351b99e5b4c9092dd89516c820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e550c19f2dbe6764d7d9959fbbdb391a') in 0.013989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Model/character/Castle Guard/UI/animation.png
+  artifactKey: Guid(7421b47b9f1ee4b46a8b823fc4788fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Castle Guard/UI/animation.png using Guid(7421b47b9f1ee4b46a8b823fc4788fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8129c1b0e3a68044c337a8155f61e884') in 0.024486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Model/character/Castle Guard Archer/UI/anim_button1.png
+  artifactKey: Guid(fb065bd65018b91458cd8dd04e660b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Castle Guard Archer/UI/anim_button1.png using Guid(fb065bd65018b91458cd8dd04e660b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a98a4f85dde87a3eaebb4ad75f531789') in 0.034517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.072185 seconds.
+  path: Assets/Model/character/Dragoon/UI/animation.png
+  artifactKey: Guid(c92f78b1145711a4d915a380ae463d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Dragoon/UI/animation.png using Guid(c92f78b1145711a4d915a380ae463d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1417b2fc51cc79517e527b9ae03f0a59') in 0.007772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.046001 seconds.
+  path: Assets/Model/character/Archbishop/UI/animation.png
+  artifactKey: Guid(2a13465652859a348bcb8a3f66c18e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/UI/animation.png using Guid(2a13465652859a348bcb8a3f66c18e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '31144e0fd172615b0432b5ab8ed41df5') in 0.007991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.475322 seconds.
+  path: Assets/Model/character/Casual Tiny - Knight Pack/Casual Tiny - Knight Pack(3).PNG
+  artifactKey: Guid(5d76ed352a2c62f4898d7ae695c28312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Casual Tiny - Knight Pack/Casual Tiny - Knight Pack(3).PNG using Guid(5d76ed352a2c62f4898d7ae695c28312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3127f80d4de6874251a329e98b6694a2') in 0.012319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.357697 seconds.
+  path: Assets/Model/character/Dragoon/Dragoon(3).PNG
+  artifactKey: Guid(95f0146cda71cd6458aa43472ed05ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Dragoon/Dragoon(3).PNG using Guid(95f0146cda71cd6458aa43472ed05ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd5ca5f8b689013f648e499c7f5bb60ee') in 0.016146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Model/character/Dragoon/Dragoon/Texture/F02/F02.png
+  artifactKey: Guid(8d53da8e58bc1684393df669d34974b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Dragoon/Dragoon/Texture/F02/F02.png using Guid(8d53da8e58bc1684393df669d34974b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a4e585f10c7e6b63e73bf93fdf77e03c') in 0.052102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Model/character/Castle Guard/Castle Guard/Texture/Skin&Hair&Face/Face/Face.png
+  artifactKey: Guid(d6e5b578349135344b1a428d6c2d0c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Castle Guard/Castle Guard/Texture/Skin&Hair&Face/Face/Face.png using Guid(d6e5b578349135344b1a428d6c2d0c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3eb0ee985fc56bc8f12a0f1f41fc8228') in 0.017501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.293205 seconds.
+  path: Assets/Model/character/Dragoon/Dragoon/Texture/Skin&Hair&Face/Face/Face.png
+  artifactKey: Guid(c47b1baf35d1f74499588ecbeacf39e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Dragoon/Dragoon/Texture/Skin&Hair&Face/Face/Face.png using Guid(c47b1baf35d1f74499588ecbeacf39e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7d1b98d3063d5bad0123e4a210d6faa1') in 0.008651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021296 seconds.
+  path: Assets/Model/character/Red Mage/RedMage/Texture/Skin&Hair&Face/Face/Face.png
+  artifactKey: Guid(992a35b2b2013134c888f3e0eb09fc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Red Mage/RedMage/Texture/Skin&Hair&Face/Face/Face.png using Guid(992a35b2b2013134c888f3e0eb09fc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd675b5f8fd7254d2342376582d74a32f') in 0.007887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.027915 seconds.
+  path: Assets/Model/character/Red Knight/RedKnight/Texture/Skin&Hair&Face/Face/face02.png
+  artifactKey: Guid(fef6b5786765f634dbe84a168ac64b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Red Knight/RedKnight/Texture/Skin&Hair&Face/Face/face02.png using Guid(fef6b5786765f634dbe84a168ac64b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aba22f93974c960239c91ad62929074a') in 0.014866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008293 seconds.
+  path: Assets/Model/character/Red Mage/UI/Floor_creation2.png
+  artifactKey: Guid(6e4ec8d55abbe8644bca8efb55edbdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Red Mage/UI/Floor_creation2.png using Guid(6e4ec8d55abbe8644bca8efb55edbdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2de6e94c53692ab54fcad16e5558a17a') in 0.018325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 655.939494 seconds.
+  path: Assets/Model/character/Castle Guard Archer/Castle Guard Archer/Materials/Skin&Hair&Face/skin.mat
+  artifactKey: Guid(4f710b0038e4f1a4b8dc85a1fa355811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Castle Guard Archer/Castle Guard Archer/Materials/Skin&Hair&Face/skin.mat using Guid(4f710b0038e4f1a4b8dc85a1fa355811) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '824bc113e0e94b535e2683f120696330') in 0.005489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001558 seconds.
+  path: Assets/Model/character/Dragoon/Dragoon/Materials/Skin&Hair&Face/skin.mat
+  artifactKey: Guid(68f60cd337e7daa46a366be0aac1458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Dragoon/Dragoon/Materials/Skin&Hair&Face/skin.mat using Guid(68f60cd337e7daa46a366be0aac1458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '69a412f78d7f2dd2abef80cd9f5de839') in 0.006755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Model/character/Red Mage/RedMage/Materials/Skin&Hair&Face/skin.mat
+  artifactKey: Guid(ca8752dabfc7eae418bc82cdb91219f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Red Mage/RedMage/Materials/Skin&Hair&Face/skin.mat using Guid(ca8752dabfc7eae418bc82cdb91219f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a891653e001e687038b8b72be057fe8') in 0.006158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 114.643350 seconds.
+  path: Assets/Model/character/Casual Tiny - Knight Pack/models/pc_knight_walk_01.FBX
+  artifactKey: Guid(14732966244ada84380118ac5633f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Casual Tiny - Knight Pack/models/pc_knight_walk_01.FBX using Guid(14732966244ada84380118ac5633f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ea2a76f799cfcb2455475e279c877a0') in 0.078502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 126
+========================================================================
+Received Import Request.
+  Time since last request: 0.462231 seconds.
+  path: Assets/Model/character/Casual Tiny - Knight Pack/models/pc_knight_04.FBX
+  artifactKey: Guid(5f2dea41a9a9e624d9f2022fdb782387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Casual Tiny - Knight Pack/models/pc_knight_04.FBX using Guid(5f2dea41a9a9e624d9f2022fdb782387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '33e5289b13bd7a3ea5c1a2a81dbea577') in 0.025256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Model/character/Casual Tiny - Knight Pack/models/pc_knight_weapon_05.FBX
+  artifactKey: Guid(2be8a6226632eb44c95c47440bf44427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Casual Tiny - Knight Pack/models/pc_knight_weapon_05.FBX using Guid(2be8a6226632eb44c95c47440bf44427) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '377fb4fc0142ea80348d9f62b20787b1') in 0.025037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.466716 seconds.
+  path: Assets/Model/character/Casual Tiny - Knight Pack/models/pc_knight_weapon_06.FBX
+  artifactKey: Guid(dbfadaef379bb7341bdb01b988ec01fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Casual Tiny - Knight Pack/models/pc_knight_weapon_06.FBX using Guid(dbfadaef379bb7341bdb01b988ec01fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b746d6958605008be8035a64eac5b3b6') in 0.021006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.037533 seconds.
+  path: Assets/Model/character/Casual Tiny - Knight Pack/models/pc_knight_02.FBX
+  artifactKey: Guid(0e2afd70ba727b14fb0c1fb123a9c7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Casual Tiny - Knight Pack/models/pc_knight_02.FBX using Guid(0e2afd70ba727b14fb0c1fb123a9c7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f4e00e3a9b42e0e26c703b0942e1cb4') in 0.028241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.003887 seconds.
+  path: Assets/Model/character/Casual Tiny - Knight Pack/models/pc_knight_03.FBX
+  artifactKey: Guid(0315f31e69cf4c34e8a3d502683cf8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Casual Tiny - Knight Pack/models/pc_knight_03.FBX using Guid(0315f31e69cf4c34e8a3d502683cf8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c3dcd783ebf7b350a325b59e010fe55') in 0.035172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.344794 seconds.
+  path: Assets/Model/character/Casual Tiny - Knight Pack/fx_prefaps/Mat/fx_tile_water_001.mat
+  artifactKey: Guid(79de3a6256fc2694e967bc79bc5b0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Casual Tiny - Knight Pack/fx_prefaps/Mat/fx_tile_water_001.mat using Guid(79de3a6256fc2694e967bc79bc5b0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '74ba6d2b5a68f641459d3370aaa9255f') in 0.041589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.293052 seconds.
+  path: Assets/Model/character/Casual Tiny - Knight Pack/fx_prefaps/Mat/fx_circle_001z.mat
+  artifactKey: Guid(6d0c77d41d09f774d87c45ed08718c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Casual Tiny - Knight Pack/fx_prefaps/Mat/fx_circle_001z.mat using Guid(6d0c77d41d09f774d87c45ed08718c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a4a3b8101e701480f7fdc54d2e4a3229') in 0.051761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Model/character/Casual Tiny - Knight Pack/fx_prefaps/Mat/fx_circle_fire_005.mat
+  artifactKey: Guid(1ecaad653b369ff4598310be2dbcb5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Casual Tiny - Knight Pack/fx_prefaps/Mat/fx_circle_fire_005.mat using Guid(1ecaad653b369ff4598310be2dbcb5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '127ad4f79b5f5f2487322033eb45ab73') in 0.019380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 371.807964 seconds.
+  path: Assets/prefab/door.prefab
+  artifactKey: Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/door.prefab using Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8413deb600e2d6e78363adb7d59cd09c') in 0.016321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 13.921195 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Aert.fbx
+  artifactKey: Guid(6940f0f670425e8428100ccf1df365ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Aert.fbx using Guid(6940f0f670425e8428100ccf1df365ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '88a9f8ef9d5617113f5581479f2c13ae') in 0.002910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.000836 seconds.
+  path: Assets/Model/character/Dragoon/Animations/Animations_v3/AnimSD@Aert.fbx
+  artifactKey: Guid(e63f9a853aaa0d14cbfd3b0c08188590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Dragoon/Animations/Animations_v3/AnimSD@Aert.fbx using Guid(e63f9a853aaa0d14cbfd3b0c08188590) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '118574a2ed85a007be52c38e8c7609fd') in 0.003066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.004170 seconds.
+  path: Assets/Model/character/Castle Guard Archer/Animations/Animations_v3/AnimSD@Aert.fbx
+  artifactKey: Guid(41721eb8798d9474585e53ebe7ee7e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Castle Guard Archer/Animations/Animations_v3/AnimSD@Aert.fbx using Guid(41721eb8798d9474585e53ebe7ee7e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '660d7efe35e5cb4ef6f97387f11c9a9d') in 0.004048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Model/character/Dragoon/Animations/Animations_v3/AnimSD@ATK0.fbx
+  artifactKey: Guid(ff59b0d8dbb715946b1dda3dcdd80181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Dragoon/Animations/Animations_v3/AnimSD@ATK0.fbx using Guid(ff59b0d8dbb715946b1dda3dcdd80181) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8fbd3ef840ee64977768a759e9a18864') in 0.004008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Model/character/Castle Guard/Animations/Animations_v3/AnimSD@Aert.fbx
+  artifactKey: Guid(32f8a4b2a50d4f542a4e64f2a963d25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Castle Guard/Animations/Animations_v3/AnimSD@Aert.fbx using Guid(32f8a4b2a50d4f542a4e64f2a963d25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eb48a9fd80bd87fc8be82ed2b5e84a33') in 0.004182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.376 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.790 seconds
+Domain Reload Profiling: 1165ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (790ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (378ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3700.
+Memory consumption went from 139.4 MB to 139.4 MB.
+Total: 2.495500 ms (FindLiveObjects: 0.264900 ms CreateObjectMapping: 0.218000 ms MarkObjects: 1.977100 ms  DeleteObjects: 0.034900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.366 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.789 seconds
+Domain Reload Profiling: 1154ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (789ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (385ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3703.
+Memory consumption went from 139.7 MB to 139.7 MB.
+Total: 3.049200 ms (FindLiveObjects: 0.296300 ms CreateObjectMapping: 0.228400 ms MarkObjects: 2.488600 ms  DeleteObjects: 0.034800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 815.027616 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@ATK2.fbx
+  artifactKey: Guid(f62b6db74bf9c8c4da575c6c464cb1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@ATK2.fbx using Guid(f62b6db74bf9c8c4da575c6c464cb1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a81f6356956054bb598c2cbef20b9cd9') in 0.033465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.368 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.823 seconds
+Domain Reload Profiling: 1190ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (823ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3706.
+Memory consumption went from 139.4 MB to 139.4 MB.
+Total: 2.581200 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.185600 ms MarkObjects: 2.110700 ms  DeleteObjects: 0.033600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 171.739022 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Block.fbx
+  artifactKey: Guid(ffaa253b6a8fb66458a23d21eebd47d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Block.fbx using Guid(ffaa253b6a8fb66458a23d21eebd47d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c19880d75d48ad3edfbd3165dc2f7e9') in 0.027097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.124421 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Die0.fbx
+  artifactKey: Guid(387741b93030b734d8d76e8f1f7370c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Die0.fbx using Guid(387741b93030b734d8d76e8f1f7370c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fb2f5d14bb2ede1ce08d1ffdd581c9c3') in 0.003193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.002775 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Die2.fbx
+  artifactKey: Guid(2b7c5e14b1166fc4d9b3935c3d2ad526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Die2.fbx using Guid(2b7c5e14b1166fc4d9b3935c3d2ad526) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97c2ec3b39b6e711e25ef5dcf000edeb') in 0.005143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@IdleA.fbx
+  artifactKey: Guid(7eb2a4c934a24d24687ca9b11d1fad0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@IdleA.fbx using Guid(7eb2a4c934a24d24687ca9b11d1fad0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '768b5ab08a928038335ba8195056f30d') in 0.003695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.088561 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@IdleC.fbx
+  artifactKey: Guid(9a18ae3ba1837eb42bbb00b4a71fbd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@IdleC.fbx using Guid(9a18ae3ba1837eb42bbb00b4a71fbd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0c5a7fa267e029eaac0a396e4af12c70') in 0.003876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Move_L.fbx
+  artifactKey: Guid(ab92bc624a4e6ac4ba423b6b95ac0182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Move_L.fbx using Guid(ab92bc624a4e6ac4ba423b6b95ac0182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28dcdc05a3d376bbf5837874ee6b9bce') in 0.003507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.098439 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Rest.fbx
+  artifactKey: Guid(6606399bccaef664d9c1e171b289ac31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Rest.fbx using Guid(6606399bccaef664d9c1e171b289ac31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b08f5b59a612eea1919112f206033f1d') in 0.003814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Run_L.fbx
+  artifactKey: Guid(1197fe0b406be3440ae2e550b6cd8d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Run_L.fbx using Guid(1197fe0b406be3440ae2e550b6cd8d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9422af0bbc5832fff62199cd3b6056e') in 0.003601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Run_R.fbx
+  artifactKey: Guid(859d987ebefbc7c488e71250f5ae2084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Run_R.fbx using Guid(859d987ebefbc7c488e71250f5ae2084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '82aa3f2ca4853f8db8b45dfd59d89fee') in 0.003314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.038939 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Sleep.fbx
+  artifactKey: Guid(3477fb0f2fa46ce4d9422475bfc9f5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Sleep.fbx using Guid(3477fb0f2fa46ce4d9422475bfc9f5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '77e8346171072e8b36b5ec460eafd555') in 0.005301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Victory.fbx
+  artifactKey: Guid(06428d0cea34d8947ac1c440d18191b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Victory.fbx using Guid(06428d0cea34d8947ac1c440d18191b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'befd5d855338fcc9f31519df9075a486') in 0.004082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.081239 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Walk.fbx
+  artifactKey: Guid(323598ebfbfa5354ebfb9eaf16f527f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Walk.fbx using Guid(323598ebfbfa5354ebfb9eaf16f527f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7c83a607c9b90874edf1c54887217133') in 0.003851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Walk_L.fbx
+  artifactKey: Guid(d6f52f7ec5ad3e4429e023d9603b4b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Walk_L.fbx using Guid(d6f52f7ec5ad3e4429e023d9603b4b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cdaa2af1393b8c0a3884bd473dd0872b') in 0.004659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/Avatar_SD.fbx
+  artifactKey: Guid(ee6736bf411339141be6790c730c3096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/Avatar_SD.fbx using Guid(ee6736bf411339141be6790c730c3096) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '55eec1b4310e51196f196d62da831af9') in 0.003846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 166
+========================================================================
+Received Import Request.
+  Time since last request: 68.753233 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Aert.fbx
+  artifactKey: Guid(6940f0f670425e8428100ccf1df365ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/AnimSD@Aert.fbx using Guid(6940f0f670425e8428100ccf1df365ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0130afe9c707c59f7794f665381cacfc') in 0.004837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 163
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.358 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.816 seconds
+Domain Reload Profiling: 1173ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (816ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3709.
+Memory consumption went from 140.0 MB to 140.0 MB.
+Total: 3.094100 ms (FindLiveObjects: 0.260800 ms CreateObjectMapping: 0.216000 ms MarkObjects: 2.578400 ms  DeleteObjects: 0.038100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.447792 seconds.
+  path: Assets/Model/character/Archbishop/Animations/Animations_v3/Animations_check.controller
+  artifactKey: Guid(dfc226bef462a20479bae442c33652e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations/Animations_v3/Animations_check.controller using Guid(dfc226bef462a20479bae442c33652e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '692344507b531ff4e6ca816f0a02f29d') in 0.014510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.368 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1140ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (773ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3712.
+Memory consumption went from 140.0 MB to 140.0 MB.
+Total: 2.558800 ms (FindLiveObjects: 0.275200 ms CreateObjectMapping: 0.262200 ms MarkObjects: 1.980500 ms  DeleteObjects: 0.039800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.379 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.828 seconds
+Domain Reload Profiling: 1206ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (828ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (402ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3715.
+Memory consumption went from 140.3 MB to 140.2 MB.
+Total: 3.579000 ms (FindLiveObjects: 0.279200 ms CreateObjectMapping: 0.201900 ms MarkObjects: 3.058000 ms  DeleteObjects: 0.038900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.290765 seconds.
+  path: Assets/Model/character/Archbishop/Animations
+  artifactKey: Guid(3751b30f5cb237c448da75799a45493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/character/Archbishop/Animations using Guid(3751b30f5cb237c448da75799a45493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fb5a442e24ad7d16517ed0d13edb3e67') in 0.005078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 75.600039 seconds.
+  path: Assets/animation
+  artifactKey: Guid(a6762d48d4f16ca40b2a41a43fb78ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animation using Guid(a6762d48d4f16ca40b2a41a43fb78ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '176bf840eb7c4258c2acc87d5d905b08') in 0.000471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.388888 seconds.
+  path: Assets/Animaition
+  artifactKey: Guid(a6762d48d4f16ca40b2a41a43fb78ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaition using Guid(a6762d48d4f16ca40b2a41a43fb78ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20b3afec1b858aa7921085576df2ed9b') in 0.000438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.397176 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(a6762d48d4f16ca40b2a41a43fb78ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(a6762d48d4f16ca40b2a41a43fb78ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8b0b9483400f3ce93bb6292612951dca') in 0.000482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.588096 seconds.
+  path: Assets/Animation/Test.controller
+  artifactKey: Guid(fa9264e7ba8a8ae4392272d0da5ca00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Test.controller using Guid(fa9264e7ba8a8ae4392272d0da5ca00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f9067b824bd8eb1c561db01f86f2d6f') in 0.009568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 34.772494 seconds.
+  path: Assets/Animation/door.controller
+  artifactKey: Guid(6c231882e2e28094db68465fdc032195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/door.controller using Guid(6c231882e2e28094db68465fdc032195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c2c9d0ab71a3e8afa07ff819056f1dd4') in 0.000879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 216.086855 seconds.
+  path: Assets/Animation/OpenDoor.anim
+  artifactKey: Guid(50dcdbd5c8f8a4a4ea9d12266a383d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/OpenDoor.anim using Guid(50dcdbd5c8f8a4a4ea9d12266a383d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2bb9000737b2f2fb0700862b5a7ab53') in 0.001249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 770.620096 seconds.
+  path: Assets/prefab/door.prefab
+  artifactKey: Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/door.prefab using Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '820c89b6ff77fd47873569fe60eafefc') in 0.059255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 8.173615 seconds.
+  path: Assets/prefab/door.prefab
+  artifactKey: Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/door.prefab using Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b3b347e29f1fc23f71140dcb86c8db0d') in 0.008613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 10.242104 seconds.
+  path: Assets/prefab/door.prefab
+  artifactKey: Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/door.prefab using Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '12c85b9372d6ed26554a6a87de61b495') in 0.006745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 9.875938 seconds.
+  path: Assets/prefab/door.prefab
+  artifactKey: Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/door.prefab using Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b2627f5f4bb81d5e74fa1be0981fdef') in 0.007612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 5.817645 seconds.
+  path: Assets/prefab/door.prefab
+  artifactKey: Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/door.prefab using Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e0e654a6082b44f6043ee3a3f8e079f2') in 0.006620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 2.412790 seconds.
+  path: Assets/prefab/door.prefab
+  artifactKey: Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/door.prefab using Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0201b469e451b4680ca563c96271657d') in 0.006774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 28.173546 seconds.
+  path: Assets/prefab/door.prefab
+  artifactKey: Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/door.prefab using Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7a2667b628644c4be3cacc9fc1712150') in 0.014353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 7.241199 seconds.
+  path: Assets/prefab/door.prefab
+  artifactKey: Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/door.prefab using Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c3029beec239381677ab81a4840c88b9') in 0.011746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 85.805489 seconds.
+  path: Assets/prefab/door.prefab
+  artifactKey: Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/door.prefab using Guid(912cfef61279218409a6447e59b05c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '950fbc58aa742801d083dab4d5dac75e') in 0.013716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
