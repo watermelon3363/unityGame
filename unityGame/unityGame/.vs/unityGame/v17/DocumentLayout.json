@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\\uCD08\uC6D0\\unitygame\\unitygame\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\\uCD08\uC6D0\\unitygame\\unitygame\\assets\\script\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\assets\\script\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\assets\\script\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\assets\\script\\intriui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\intriui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerAnimator.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\PlayerAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerAnimator.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\PlayerAnimator.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerAnimator.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T06:11:36.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\Player.cs",
+              "RelativeToolTip": "Assets\\Script\\Player.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAIwEwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T05:50:57.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "door.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\door.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\door.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\door.cs",
+              "RelativeToolTip": "Assets\\Script\\door.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T05:38:48.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "car.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\car.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\car.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\car.cs",
+              "RelativeToolTip": "Assets\\Script\\car.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T04:09:56.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IntriUI.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\IntriUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\IntriUI.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\IntriUI.cs",
+              "RelativeToolTip": "Assets\\Script\\IntriUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T06:15:50.799Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
