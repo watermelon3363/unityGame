@@ -3,23 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC7A5\uC7A5\\unityGame\\unityGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\\uCD08\uC7A5\uC7A5\\unitygame\\unitygame\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Model\\Dragoon\\Scripts\\MouseOrbitImproved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\\uCD08\uC7A5\uC7A5\\unityGame\\unityGame\\assets\\script\\booster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\booster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\\uCD08\uC7A5\uC7A5\\unitygame\\unitygame\\assets\\script\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\\uCD08\uC7A5\uC7A5\\unityGame\\unityGame\\assets\\script\\intriui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\intriui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\uCD08\uC7A5\uC7A5\\unityGame\\unityGame\\assets\\script\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\script\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,46 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "car.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC7A5\uC7A5\\unityGame\\unityGame\\Assets\\Script\\car.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\car.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC7A5\uC7A5\\unityGame\\unityGame\\Assets\\Script\\car.cs",
+              "RelativeToolTip": "Assets\\Script\\car.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T04:09:56.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MouseOrbitImproved.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Model\\Dragoon\\Scripts\\MouseOrbitImproved.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Model\\Dragoon\\Scripts\\MouseOrbitImproved.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Model\\Dragoon\\Scripts\\MouseOrbitImproved.cs",
-              "RelativeToolTip": "..\\..\\..\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Model\\Dragoon\\Scripts\\MouseOrbitImproved.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T05:07:42.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "door.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC7A5\uC7A5\\unityGame\\unityGame\\Assets\\Script\\door.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\door.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC7A5\uC7A5\\unityGame\\unityGame\\Assets\\Script\\door.cs",
-              "RelativeToolTip": "Assets\\Script\\door.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T12:36:46.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "booster.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC7A5\uC7A5\\unityGame\\unityGame\\Assets\\Script\\booster.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\booster.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC7A5\uC7A5\\unityGame\\unityGame\\Assets\\Script\\booster.cs",
-              "RelativeToolTip": "Assets\\Script\\booster.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T12:24:10.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "IntriUI.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC7A5\uC7A5\\unityGame\\unityGame\\Assets\\Script\\IntriUI.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\IntriUI.cs",
@@ -77,19 +44,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAADwvxYAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T06:15:50.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC7A5\uC7A5\\unityGame\\unityGame\\Assets\\Script\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uCD08\uC7A5\uC7A5\\unityGame\\unityGame\\Assets\\Script\\Player.cs",
-              "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAqwIUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T02:28:54.976Z",
-              "EditorCaption": ""
             }
           ]
         }
