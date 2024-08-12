@@ -8,11 +8,10 @@ public class Player : MonoBehaviour
 {
     public CharacterController characterController;
     [SerializeField]
-    public float speed; // 1프레임당 움직이는 것
+    public float speed = 10f; // 1프레임당 움직이는 것
     // Start is called before the first frame update
-    Rigidbody Player_rigidbody;
-    float jumpForce = 5.0f;
-    bool grounded = false;
+    public float iteamAddspeed = 5f;
+    public Camera cam;
 
     public float timestart; // 시작
     private float timeupdate;
@@ -24,7 +23,7 @@ public class Player : MonoBehaviour
         a = transform.position.x; 
         b = transform.position.y; 
         c = transform.position.z;
-        Player_rigidbody = GetComponent<Rigidbody>(); //?
+        
         speed = 1f;
         timestart = 0.0f;
         timeupdate = 3.0f;
@@ -35,24 +34,24 @@ public class Player : MonoBehaviour
     void Update()
     {
         PlayerMove();
-        CheckGround();
+        //CheckGround();
         Speed_Time();
     }
 
 
-    private void CheckGround()
-    {
-        RaycastHit hit; // ?
-        if (Physics.Raycast(transform.position,Vector3.down,out hit,0.1f)) //레이 쏘는 함수 (레이저 쏘는 함수 == 광선에 충돌되는 콜라이더에 대한 거리, 위치 등에 대한 정보를 Ratcasthit으로 반환한다.  
-        {
-            if (hit.transform.tag != null)
-            {
-                grounded = true;
-                return;
-            }
-        }
-        grounded = false;
-    }
+    //private void CheckGround()
+    //{
+    //    RaycastHit hit; // ?
+    //    if (Physics.Raycast(transform.position,Vector3.down,out hit,0.1f)) //레이 쏘는 함수 (레이저 쏘는 함수 == 광선에 충돌되는 콜라이더에 대한 거리, 위치 등에 대한 정보를 Ratcasthit으로 반환한다.  
+    //    {
+    //        if (hit.transform.tag != null)
+    //        {
+    //            grounded = true;
+    //            return;
+    //        }
+    //    }
+    //    grounded = false;
+    //}
     // physics.Raycast(Vector3 위치, Vecter3 방향, out 결과물 float길이);
 
     private void Speed_Time()
@@ -97,11 +96,11 @@ public class Player : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.Space) && grounded)
-        {
-            Vector3 jumpVelocity = Vector3.up * Mathf.Sqrt(jumpForce  -Physics.gravity.y); // Mathf(수학함수를 제공하는 클래스) Mathf.sprt(제곱근을 반환해줌)
-            Player_rigidbody.AddForce(jumpVelocity, ForceMode.Impulse);
-        }
+        //if (Input.GetKey(KeyCode.Space) && grounded)
+        //{
+        //    Vector3 jumpVelocity = Vector3.up * Mathf.Sqrt(jumpForce  -Physics.gravity.y); // Mathf(수학함수를 제공하는 클래스) Mathf.sprt(제곱근을 반환해줌)
+        //    Player_rigidbody.AddForce(jumpVelocity, ForceMode.Impulse);
+        //}
 
         //float horizontalInput = Input.GetAxis("Horizontal");
         //float vertialInput = Input.GetAxis("vertical");
@@ -137,7 +136,7 @@ public class Player : MonoBehaviour
 
         if (other.CompareTag("door"))
         {
-            Destroy(other.gameObject, 3);
+            Destroy(gameObject, 3);
             timestart = 0.0f;
 
             
@@ -153,6 +152,8 @@ public class Player : MonoBehaviour
             {
                 Debug.Log("3");
             }
+
+
         }
     }
 }
