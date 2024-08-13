@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\CEO\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCD08\uC6D0\\unityGame\\unityGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|c:\\users\\ceo\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCD08\uC6D0\\unitygame\\unitygame\\assets\\script\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|c:\\users\\ceo\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCD08\uC6D0\\unitygame\\unitygame\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "C:\\Users\\CEO\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerMove.cs",
+              "ToolTip": "C:\\Users\\CEO\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerMove.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBUAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T05:52:55.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\CEO\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
               "ToolTip": "C:\\Users\\CEO\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAFYAAAAaAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwAoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T23:23:35.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "car.cs",
               "DocumentMoniker": "C:\\Users\\CEO\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\car.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\car.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IntriUI.cs",
               "DocumentMoniker": "C:\\Users\\CEO\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\IntriUI.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\IntriUI.cs",

@@ -355,6 +355,7 @@
 "Assets/Script/car.cs"
 "Assets/Script/IntriUI.cs"
 "Assets/Script/Player.cs"
+"Assets/Script/PlayerMove.cs"
 -langversion:9.0
 /deterministic
 /optimize+
