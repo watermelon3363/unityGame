@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor.Timeline;
 using UnityEngine;
 
 
@@ -10,20 +11,13 @@ public class Player : MonoBehaviour
     [SerializeField]
     public float speed = 10f; // 1프레임당 움직이는 것
     // Start is called before the first frame update
-    public float iteamAddspeed = 5f;
-    public Camera cam;
-
+    public Animator animator;
     public float timestart; // 시작
     private float timeupdate;
-    public float a;
-    public float b;
-    public float c;
+   
     void Start()
     {
-        a = transform.position.x; 
-        b = transform.position.y; 
-        c = transform.position.z;
-        
+        animator = GetComponent<Animator>();
         speed = 1f;
         timestart = 0.0f;
         timeupdate = 3.0f;
@@ -34,25 +28,28 @@ public class Player : MonoBehaviour
     void Update()
     {
         PlayerMove();
-        //CheckGround();
         Speed_Time();
+        float horizontal = Input.GetAxis("Horizontal");
+        float Vertical = Input.GetAxis("Vertical");
+
+        float MoveInput = Mathf.Clamp01(Mathf.Abs(horizontal) + Mathf.Abs(Vertical));
+
+        if (MoveInput == 0)
+        {
+            animator.SetBool("Run", false);
+        }
+        else if (MoveInput != 0 ) 
+        {
+            animator.SetBool("Run",true);
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            animator.SetTrigger("Victory");
+        }
     }
 
-
-    //private void CheckGround()
-    //{
-    //    RaycastHit hit; // ?
-    //    if (Physics.Raycast(transform.position,Vector3.down,out hit,0.1f)) //레이 쏘는 함수 (레이저 쏘는 함수 == 광선에 충돌되는 콜라이더에 대한 거리, 위치 등에 대한 정보를 Ratcasthit으로 반환한다.  
-    //    {
-    //        if (hit.transform.tag != null)
-    //        {
-    //            grounded = true;
-    //            return;
-    //        }
-    //    }
-    //    grounded = false;
-    //}
-    // physics.Raycast(Vector3 위치, Vecter3 방향, out 결과물 float길이);
 
     private void Speed_Time()
     {
@@ -67,47 +64,6 @@ public class Player : MonoBehaviour
 
     private void PlayerMove()
     {
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            a -= speed * Time.deltaTime;
-            transform.position = new Vector3(a, b, c);
-
-        }
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            a += speed * Time.deltaTime;
-            transform.position = new Vector3(a, b, c);
-
-        }
-
-        if (Input.GetKey(KeyCode.W))
-        {
-            c -= speed * Time.deltaTime;
-            transform.position = new Vector3(a, b, c);
-
-        }
-
-        if (Input.GetKey(KeyCode.S))
-        {
-            c += speed * Time.deltaTime;
-            transform.position = new Vector3(a, b, c);
-
-        }
-
-        //if (Input.GetKey(KeyCode.Space) && grounded)
-        //{
-        //    Vector3 jumpVelocity = Vector3.up * Mathf.Sqrt(jumpForce  -Physics.gravity.y); // Mathf(수학함수를 제공하는 클래스) Mathf.sprt(제곱근을 반환해줌)
-        //    Player_rigidbody.AddForce(jumpVelocity, ForceMode.Impulse);
-        //}
-
-        //float horizontalInput = Input.GetAxis("Horizontal");
-        //float vertialInput = Input.GetAxis("vertical");
-        //
-        //Vector3 movevecter = new Vector3(horizontalInput, 0, vertialInput);
-        //
-        //characterController.SimpleMove(movevecter * speed);
 
     }
     private void OnTriggerEnter(Collider other)
@@ -138,21 +94,7 @@ public class Player : MonoBehaviour
         {
             Destroy(gameObject, 3);
             timestart = 0.0f;
-
-            
-            if (timestart == 1f)
-            {
-                Debug.Log("1");
-            }
-            if (timestart == 2f)
-            {
-                Debug.Log("2");
-            }
-            if (timestart == 3f)
-            {
-                Debug.Log("3");
-            }
-
+            Debug.Log("충돌");
 
         }
     }

@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|c:\\users\\ceo\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCD08\uC6D0\\unitygame\\unitygame\\assets\\script\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|C:\\Users\\CEO\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCD08\uC6D0\\unityGame\\unityGame\\assets\\script\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B09D295-5015-3004-7259-5B3F32696E27}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
               "ToolTip": "C:\\Users\\CEO\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCD08\uC6D0\\unityGame\\unityGame\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AQIAAAgAAAAAzMzMzMwrwA0AAAAWAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAFYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T23:23:35.189Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Assets\\Script\\car.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwBsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T04:09:56.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T04:09:56.637Z"
             },
             {
               "$type": "Document",

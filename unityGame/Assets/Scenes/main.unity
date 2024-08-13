@@ -3681,8 +3681,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1866470848349248, guid: 6a603219345fe5540879e665dfb0f264, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1624170461}
   m_SourcePrefab: {fileID: 100100000, guid: 6a603219345fe5540879e665dfb0f264, type: 3}
+--- !u!1 &806380567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1866470848349248, guid: 6a603219345fe5540879e665dfb0f264, type: 3}
+  m_PrefabInstance: {fileID: 783217331}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &853457600 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2400440606846554028, guid: ac3622c3d5f904d448075ec9832c8918, type: 3}
@@ -4886,6 +4894,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4049221361281996, guid: 6a603219345fe5540879e665dfb0f264, type: 3}
   m_PrefabInstance: {fileID: 783217331}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1624170461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806380567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d9c543d1257f54dba6d9fcebe1232e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterController: {fileID: 1733833719}
+  speed: 10
+  animator: {fileID: 0}
+  timestart: 0
 --- !u!1 &1733833717
 GameObject:
   m_ObjectHideFlags: 0
@@ -4895,7 +4919,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1733833721}
-  - component: {fileID: 1733833720}
   - component: {fileID: 1733833719}
   - component: {fileID: 1733833718}
   m_Layer: 0
@@ -4954,24 +4977,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.5, z: 0}
---- !u!114 &1733833720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733833717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3d9c543d1257f54dba6d9fcebe1232e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterController: {fileID: 1733833719}
-  speed: 10
-  timestart: 0
-  a: 0
-  b: 0
-  c: 0
 --- !u!4 &1733833721
 Transform:
   m_ObjectHideFlags: 0
